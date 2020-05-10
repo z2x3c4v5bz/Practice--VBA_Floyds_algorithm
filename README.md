@@ -4,11 +4,11 @@ Floyd’s Algorithm 是一種各點間尋找最短路徑的演算法。它利用
 
 舉個例子實作一次，假設現有 5 個節點尋找最短路徑，節點路徑圖如下所示
 
-<img src=/exorigpic.png alt=範例原始圖片>
+<p Align=center><img src=/exorigpic.png alt=範例原始圖片></p>
 
 則距離矩陣與節點矩陣可以表示如下
 
-<img src=/exormatpic.png alt=範例初始矩陣圖片>
+<p Align=center><img src=/exormatpic.png alt=範例初始矩陣圖片></p>
 
 在距離矩陣中，無法一次抵達的節點，以無窮的符號標示，並且節點到節點本身不計。而在節點矩陣中，第一行 (column) 為 1，第二行為 2 ...，以此類推，並且節點到節點本身不計。
 
@@ -16,7 +16,7 @@ Floyd’s Algorithm 是一種各點間尋找最短路徑的演算法。它利用
 
 完成演算後的結果如下
 
-<img src=/exrematpic.png alt=範例最終矩陣圖片>
+<p Align=center><img src=/exrematpic.png alt=範例最終矩陣圖片></p>
 
 現在就可以根據上面的矩陣回答下列問題：
 
@@ -44,8 +44,8 @@ Floyd’s Algorithm 是一種各點間尋找最短路徑的演算法。它利用
 
 選取距離矩陣所在的 Range，須注意先前以無窮符號表示的地方，現在需要用一個很大的數取代，如下圖
 
-<img src=/ormatpic.png alt=初始矩陣圖片>
+<p Align=center><img src=/ormatpic.png alt=初始矩陣圖片></p>
 
 按下 OK 按鈕後即可得到計算過程與最終的解答，如下圖所示
 
-<img src=/rematpic.png alt=最終矩陣圖片>
+<p Align=center><img src=/rematpic.png alt=最終矩陣圖片></p>

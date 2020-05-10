@@ -40,7 +40,7 @@ Floyd’s Algorithm 是一種各點間尋找最短路徑的演算法。它利用
 
 自訂表單樣板如下
 
-<img src=/userform.jpg alt=自訂表單圖片>
+<p Align=center><img src=/userform.jpg alt=自訂表單圖片></p>
 
 選取距離矩陣所在的 Range，須注意先前以無窮符號表示的地方，現在需要用一個很大的數取代，如下圖
 
